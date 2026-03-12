@@ -1,0 +1,10 @@
+server:
+  port: 13579
+
+spring:
+  application:
+    name: permission-manager
+
+logging:
+  level:
+    com.datalabel: debug
