@@ -1,0 +1,12 @@
+server:
+  port: 13000
+  servlet:
+    context-path: /api
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    com.auth: debug
