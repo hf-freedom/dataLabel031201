@@ -1,0 +1,10 @@
+server:
+  port: ${random.int[12000,14000]}
+
+spring:
+  application:
+    name: permission-system
+
+logging:
+  level:
+    root: info
